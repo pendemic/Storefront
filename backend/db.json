@@ -14,33 +14,33 @@
     "products": [
       {
         "id": "hdmdu0t80yjkfqselfc",
-        "name": "shoes",
+        "name": "Birds of Paradise",
         "stock": 10,
-        "price": 399.99,
+        "price": 59.99,
         "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
         "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
       },
       {
         "id": "3dc7fiyzlfmkfqseqam",
-        "name": "bags",
+        "name": "Snake",
         "stock": 20,
-        "price": 299.99,
+        "price": 39.99,
         "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
         "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
       },
       {
         "id": "aoe8wvdxvrkfqsew67",
-        "name": "shirts",
+        "name": "Monsterra",
         "stock": 15,
-        "price": 149.99,
+        "price": 74.99,
         "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
         "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
       },
       {
         "id": "bmfrurdkswtkfqsf15j",
-        "name": "shorts",
+        "name": "Majesty Palm",
         "stock": 5,
-        "price": 109.99,
+        "price": 49.99,
         "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
         "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
       }

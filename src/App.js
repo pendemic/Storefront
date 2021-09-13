@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import { Switch, Route, Link, BrowserRouter as Router } from "react-router-dom";
 import AddProduct from './components/AddProduct';
 import Cart from './components/Cart';
+import Home from './components/Home';
 import Login from './components/Login';
 import ProductList from './components/ProductList';
 import Context from "./Context";
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
+import "./Style.css";
 
 export default class App extends Component {
   constructor(props) {
@@ -26,7 +28,7 @@ export default class App extends Component {
       }}
       >
         <Router ref={this.routerRef}>
-          <div className="App">
+          <div className="App header-nav">
             <nav
             className="navbar container"
             role="navigation"
@@ -35,7 +37,7 @@ export default class App extends Component {
               <div
               className="navbar-brand"
               >
-                <b className="navbar-item is-size-4 ">ecommerce</b>
+                <b className="navbar-item is-size-4 ">Cactus Club</b>
                 <label
                 role="button"
                 class="navbar-burger burger"
@@ -53,6 +55,7 @@ export default class App extends Component {
                 </label>
               </div>
               <div className={`navbar-menu ${this.state.showMenu ? "is-active" : ""}`}>
+              <Link to="/home" className="navbar-item">Home</Link>
                 <Link to="/products" className="navbar-item">Products</Link>
                 {this.state.user && this.state.user.accessLevel < 1 && (<Link to="/add-product" className="navbar-item">Add Product
                 </Link>
@@ -70,12 +73,15 @@ export default class App extends Component {
               </div>
             </nav>
             <Switch>
-            <Route exact path="/" component={ProductList} />
+            <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/cart" component={Cart} />
               <Route exact path="/add-product" component={AddProduct} />
               <Route exact path="/products" component={ProductList} />
             </Switch>
+          </div>
+          <div>
+            <Home />
           </div>
         </Router>
 
@@ -123,4 +129,9 @@ export default class App extends Component {
     user = user ? JSON.parse(user) : null;
     this.setState({ user,  products: products.data });
   }
+  addProduct = (product, callback) => {
+    let products = this.state.products.slice();
+    products.push(product);
+    this.setState({ products }, () => callback && callback());
+  };
 }
