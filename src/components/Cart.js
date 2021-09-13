@@ -1,5 +1,8 @@
 import React from "react";
+import withContext from "../withContext";
 
-export default function Cart() {
-  return <>Cart</>
-}
+const Cart = props => {
+
+};
+
+export default withContext(Cart);
