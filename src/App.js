@@ -28,7 +28,7 @@ export default class App extends Component {
       }}
       >
         <Router ref={this.routerRef}>
-          <div className="App header-nav">
+          <div className="App">
             <nav
             className="navbar container"
             role="navigation"
@@ -55,13 +55,13 @@ export default class App extends Component {
                 </label>
               </div>
               <div className={`navbar-menu ${this.state.showMenu ? "is-active" : ""}`}>
-              <Link to="/home" className="navbar-item">Home</Link>
+              <Link to="/" className="navbar-item">Home</Link>
                 <Link to="/products" className="navbar-item">Products</Link>
                 {this.state.user && this.state.user.accessLevel < 1 && (<Link to="/add-product" className="navbar-item">Add Product
                 </Link>
               )}
               <Link to="/cart" className="navbar-item">Cart
-              <span className="tag is-primary" style={{ marginLeft: "5px" }}>
+              <span className="tag is-warning" style={{ marginLeft: "5px" }}>
                 { Object.keys(this.state.cart).length }
               </span>
               </Link>
@@ -81,7 +81,6 @@ export default class App extends Component {
             </Switch>
           </div>
           <div>
-            <Home />
           </div>
         </Router>
 
