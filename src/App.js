@@ -37,7 +37,7 @@ export default class App extends Component {
               <div
               className="navbar-brand"
               >
-                <b className="navbar-item is-size-4 ">Cactus Club</b>
+                <Link to='/' className="navbar-item is-size-4 has-text-weight-bold">Cactus Club</Link>
                 <label
                 role="button"
                 class="navbar-burger burger"
@@ -55,8 +55,7 @@ export default class App extends Component {
                 </label>
               </div>
               <div className={`navbar-menu ${this.state.showMenu ? "is-active" : ""}`}>
-              <Link to="/" className="navbar-item">Home</Link>
-                <Link to="/products" className="navbar-item">Products</Link>
+                <Link to="/products" className="navbar-item" style={{marginLeft: "auto"}}>Products</Link>
                 {this.state.user && this.state.user.accessLevel < 1 && (<Link to="/add-product" className="navbar-item">Add Product
                 </Link>
               )}
