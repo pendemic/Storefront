@@ -1,13 +1,13 @@
 import React from "react";
 import ProductItem from "../ProductItem";
 import withContext from "../withContext";
-
+import '../Style.css';
 const ProductList = props => {
   const { products } = props.context;
 
   return (
     <>
-      <div className="hero is-warning">
+      <div className="hero cactus-bg">
         <div className="hero-body container">
           <h4 className="title">Our Products</h4>
         </div>

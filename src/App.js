@@ -37,7 +37,10 @@ export default class App extends Component {
               <div
               className="navbar-brand"
               >
-                <Link to='/' className="navbar-item is-size-4 has-text-weight-bold">Cactus Club</Link>
+                {/* <Link to='/' className="navbar-item is-size-4 has-text-weight-bold">Cactus Club</Link> */}
+                <a href="/">
+                  <img className="logo" src="./img/Logo.PNG"></img>
+                  </a>
                 <label
                 role="button"
                 class="navbar-burger burger"
