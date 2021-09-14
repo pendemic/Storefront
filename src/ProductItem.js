@@ -8,7 +8,7 @@ const ProductItem = props => {
         <div className="tile is-child notification is-white">
             <figure className="image is-4by5">
               <img
-                src="https://bulma.io/images/placeholders/480x600.png"
+                src={`./img/${product.name}.jpg`}
                 alt={product.shortDesc}
               />
             </figure>
@@ -25,7 +25,7 @@ const ProductItem = props => {
             )}
             <div className="is-clearfix">
               <button
-                className="button is-small is-outlined is-warning   is-pulled-right"
+                className="button is-small has-background-success-light"
                 onClick={() =>
                   props.addToCart({
                     id: product.name,
