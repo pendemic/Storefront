@@ -4,3 +4,31 @@
 .logo{
     width: 30%;
 }
+.product-btn{
+    position: absolute;
+    top: 75%;
+    right: 17%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em -1px);
+    padding-bottom: calc(0.5em -1px);
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #FFAB40;
+    color: white;
+}
+@media screen and (max-width: 480px){
+    .product-btn{
+        font-size: 10px;
+    }
+}
+.product-btn:hover {background-color: #FF900A}
+.product{
+    position: relative;
+}
+.footer-bg{
+    background-color: #FFAB40;
+}

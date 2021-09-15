@@ -7,10 +7,10 @@ const ProductList = props => {
 
   return (
     <>
-      <div className="hero cactus-bg">
-        <div className="hero-body container">
-          <h4 className="title">Our Products</h4>
-        </div>
+      <div>
+          <img src="./img/Products.png">
+          </img>
+        
       </div>
       <br />
       <div className="container">
