@@ -32,3 +32,8 @@
 .footer-bg{
     background-color: #FFAB40;
 }
+.footer-text{
+    position: relative;
+    top: 80%;
+    right: 100%;
+}
