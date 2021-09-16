@@ -1,12 +1,13 @@
 import React from "react";
+import ProductItem from "../ProductItem";
 import withContext from "../withContext";
-import CartItem from "./CartItem"
+import CartItem from "./CartItem";
 const Cart = props => {
     const { cart } = props.context;
     const cartKeys = Object.keys(cart || {});
     return(
         <>
-      <div className="hero is-primary">
+      <div className="hero cactus-bg">
         <div className="hero-body container">
           <h4 className="title">My Cart</h4>
         </div>
@@ -43,7 +44,7 @@ const Cart = props => {
           </div>
         ) : (
           <div className="column">
-            <div className="title has-text-grey-light">No item in cart!</div>
+            <div className="title has-text-grey-light">Your cart is empty</div>
           </div>
         )}
       </div>

@@ -30,7 +30,8 @@ const ProductItem = props => {
                   props.addToCart({
                     id: product.name,
                     product,
-                    amount: 1
+                    amount: 1,
+                    total: product.price
                   })
                 }
               >

@@ -1,144 +1,144 @@
 {
-    "users": [
-      {
-        "email": "regular@example.com",
-        "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
-        "id": 1
-      },
-      {
-        "email": "admin@example.com",
-        "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
-        "id": 2
-      }
-    ],
-    "products": [
-      {
-        "id": 1,
-        "name": "Agalonema Kiwi",
-        "stock": 10,
-        "price": 59.99,
-        "shortDesc": "Aglaonemas are known as luck bringing ornamental plants.",
-        "description": "Aglaonemas are known as luck bringing ornamental plants, providing great air purifying qualities and adding delicate, subtle decorative foliage to any living space."
-      },
-      {
-        "id": 2,
-        "name": "Alocasia Dragon Scale",
-        "stock": 10,
-        "price": 69.99,
-        "shortDesc": "The Alocasia Dragon Scale looks like something out of a fairy tale with shimmering, textured foliage that appears crafted from granite.",
-        "description": "Alocasia Dragon Scale, formally named Alocasia baginda ‘Dragon Scale’, has an incredible, veined texture that, imaginatively, can be said to resemble dragon scales. The leaves play their part: they are tough and pliable, and even have a hardened topside."
-      },
-      {
-        "id": 3,
-        "name": "Aloe Vera",
-        "stock": 40,
-        "price": 14.99,
-        "shortDesc": "Aloe is a slow growing stemless succulent with thick, fleshy, grey-green leaves with serrated edges.",
-        "description": "Aloe is a slow growing stemless succulent with thick, fleshy, grey-green leaves with serrated edges. Although Aloe vera is typically found outdoors in equatorial climates it is more than happy grown in a pot inside in our more temperate climate. It is an easy plant to care for and is well known for its healing and air purification properties."
-      },
-      {
-        "id": 4,
-        "name": "Birds Nest Fern",
-        "stock": 5,
-        "price": 49.99,
-        "shortDesc": "Asplenium Crissie Amy is an easy care Bird's nest fern with a sense of fun. The classic bladed leaves end with wavy fronds that become more frilly as the plant matures.",
-        "description": "Asplenium Crissie Amy is well behaved and undemanding but does like a degree of humidity making it ideal for adding a touch of easy care, air purifying greenery to kitchens and bathrooms."
-      },
-      {
-        "id": 5,
-        "name": "Birds of Paradise",
-        "stock": 20,
-        "price": 39.99,
-        "shortDesc": "Also known as strelitzia are known for their lush, tropical foliage",
-        "description": "Strelitzia are known for their lush, tropical foliage. They make stunning architectural plants, due to their tall erect stems and wide, banana-like, paddle shaped leaves."
-      },
-      {
-        "id": 6,
-        "name": "Bonsai",
-        "stock": 2,
-        "price": 119.99,
-        "shortDesc": "Native to the tropics of India and Polynesia, Ming aralia is an interesting and exotic houseplant that is technically an evergreen shrub.",
-        "description": "Native to the tropics of India and Polynesia, Ming aralia is an interesting and exotic houseplant that is technically an evergreen shrub. While it is a bit more temperamental to grow than your average plant, it's well worth the effort for its fluffy, bright green foliage."
-      },
-      {
-        "id": 7,
-        "name": "Corn Plant",
-        "stock": 10,
-        "price": 19.99,
-        "shortDesc": "Calathea Cora is lush variegation at its tropical best. Large dark green striped leaves and borders contrast with paler centres that are occasionally flushed with a pale shade of pink.",
-        "description": "Calathea Cora is lush variegation at its tropical best. Large dark green striped leaves and borders contrast with paler centres that are occasionally flushed with a pale shade of pink. In classic Calathea style the backs of the leaves are a dark red-purple. A houseplant with true jungle boogie credentials."
-      },
-      {
-        "id": 8,
-        "name": "Fiddle Leaf Fig",
-        "stock": 5,
-        "price": 49.99,
-        "shortDesc": "Also known as ficus lyrata. Ficus lyrata are perfect for adding some serious, air-cleansing, greenery to your indoor living space.",
-        "description": "Ficus Lyrata has huge, glossy, fiddle-shaped leaves with prominent veins. If you are looking for a Ficus with a difference, this one packs a punch with it's amazing flamboyant foliage."
-      },
-      {
-        "id": 9,
-        "name": "Majesty Palm",
-        "stock": 10,
-        "price": 39.99,
-        "shortDesc": "Majesty palm is an indoor tree with long arching green fronds atop multiple stems.",
-        "description": "Majesty palm (Ravenea rivularis) is an indoor tree with long arching green fronds atop multiple stems. It is usually grown as a large houseplant, though it can reach heights of up to 90 feet in its native outdoor environment."
-      },
-      {
-        "id": 10,
-        "name": "Monstera",
-        "stock": 12,
-        "price": 69.99,
-        "shortDesc": "The hydroculture version of the Swiss Cheese Plant is an update on a 70's cult classic, its retro-chic appeal makes it just as popular today and rightly so.",
-        "description": "The hydroculture version of the Swiss Cheese Plant is an update on a 70's cult classic, its retro-chic appeal makes it just as popular today and rightly so. Its large, glossy, heart shaped, leaves add fantastic impact with their perforations and lobes, which develop as the leaf matures."
-      },
-      {
-        "id": 11,
-        "name": "Philodendron Verrucosum",
-        "stock": 5,
-        "price": 99.99,
-        "shortDesc": "Philodendron verrucosum is a colorful Philodendron with velvety leaves.",
-        "description": "Philodendron verrucosum is a colorful Philodendron with velvety leaves. It is a hemiepiphyte that starts its life as a seed growing in the canopy of trees and  is eventually reaching the soil with its roots."
-      },
-      {
-        "id": 12,
-        "name": "Rattle Snake Plant",
-        "stock": 8,
-        "price": 29.99,
-        "shortDesc": "Calathea lancifolia is a wonderfully showy houseplant. It has upright, lance-shaped leaves with long wavy edges that form in clumps, spreading slowly over time.",
-        "description": "Calathea lancifolia is a wonderfully showy houseplant. It has upright, lance-shaped leaves with long wavy edges that form in clumps, spreading slowly over time. The leaves are variegated with dark green strokes on a pale green background. The undersides are a burgundy red and velvety to the touch. The Rattlesnake plant is also sometimes known as Calathea insignis."
-      },
-      {
-        "id": 13,
-        "name": "Rubber Plant",
-        "stock": 15,
-        "price": 24.99,
-        "shortDesc": "Rubber Plants are quintessential houseplants, popular for decades and quite rightly still on trend today.",
-        "description": "Rubber Plants are quintessential houseplants, popular for decades and quite rightly still on trend today. They are easy to care for and make a sculptural statement in the right location. Ficus elastica Melany’s luscious foliage is a deep, glossy green with a glamorous hint of burgundy. The dense, compact growth habit results in more air-filtering leaves."
-      },
-      {
-        "id": 14,
-        "name": "Snake Plant",
-        "stock": 10,
-        "price": 19.99,
-        "shortDesc": "Snake plant also known as sansevieria zeylanica is a tough, hardy snake plant. The long sword-like leaves are dark green with wavy lighter green bands.",
-        "description": "Sansevieria zeylanica are not as common as Sansevieria trifasciata, but they are just as bullet-proof and just as stunning. Easy care, shade loving, hard to kill, air-purifying... these beautiful plants have it all."
-      },
-      {
-        "id": 15,
-        "name": "String of Hearts",
-        "stock": 10,
-        "price": 19.99,
-        "shortDesc": "Also known as Rosary Vine or Chain of Hearts, Ceropegia woodii is not truly a succulent, but it does store water in its stems and plant care is very similar to that of a succulent.",
-        "description": "Also known as Rosary Vine or Chain of Hearts, Ceropegia woodii is not truly a succulent, but it does store water in its stems and plant care is very similar to that of a succulent. String of Hearts is extremely easy to look after and very tolerant of neglect. It is a perfect plant for for hanging baskets."
-      },
-      {
-        "id": 16,
-        "name": "ZZ",
-        "stock": 5,
-        "price": 24.99,
-        "shortDesc": "The ZZ Plant, or Zanzibar Gem, is an extremely popular and hip house plant. It's nonchalant care requirements make it a great choice for forgetful houseplant owners.",
-        "description": "The ZZ Plant, or Zanzibar Gem, is an extremely popular and hip house plant. It's nonchalant care requirements make it a great choice for forgetful houseplant owners; whereas it's stunning and unique foliage give it eye-catching appeal."
-      }
-    ]
-  }
+  "users": [
+    {
+      "email": "regular@example.com",
+      "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
+      "id": 1
+    },
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$w8qB40MdYkMs3dgGGf0Pu.xxVOOzWdZ5/Nrkleo3Gqc88PF/OQhOG",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Agalonema Kiwi",
+      "stock": 10,
+      "price": 59.99,
+      "shortDesc": "Aglaonemas are known as luck bringing ornamental plants.",
+      "description": "Aglaonemas are known as luck bringing ornamental plants, providing great air purifying qualities and adding delicate, subtle decorative foliage to any living space."
+    },
+    {
+      "id": 2,
+      "name": "Alocasia Dragon Scale",
+      "stock": 10,
+      "price": 69.99,
+      "shortDesc": "The Alocasia Dragon Scale looks like something out of a fairy tale with shimmering, textured foliage that appears crafted from granite.",
+      "description": "Alocasia Dragon Scale, formally named Alocasia baginda ‘Dragon Scale’, has an incredible, veined texture that, imaginatively, can be said to resemble dragon scales. The leaves play their part: they are tough and pliable, and even have a hardened topside."
+    },
+    {
+      "id": 3,
+      "name": "Aloe Vera",
+      "stock": 39,
+      "price": 14.99,
+      "shortDesc": "Aloe is a slow growing stemless succulent with thick, fleshy, grey-green leaves with serrated edges.",
+      "description": "Aloe is a slow growing stemless succulent with thick, fleshy, grey-green leaves with serrated edges. Although Aloe vera is typically found outdoors in equatorial climates it is more than happy grown in a pot inside in our more temperate climate. It is an easy plant to care for and is well known for its healing and air purification properties."
+    },
+    {
+      "id": 4,
+      "name": "Birds Nest Fern",
+      "stock": 5,
+      "price": 49.99,
+      "shortDesc": "Asplenium Crissie Amy is an easy care Bird's nest fern with a sense of fun. The classic bladed leaves end with wavy fronds that become more frilly as the plant matures.",
+      "description": "Asplenium Crissie Amy is well behaved and undemanding but does like a degree of humidity making it ideal for adding a touch of easy care, air purifying greenery to kitchens and bathrooms."
+    },
+    {
+      "id": 5,
+      "name": "Birds of Paradise",
+      "stock": 20,
+      "price": 39.99,
+      "shortDesc": "Also known as strelitzia are known for their lush, tropical foliage",
+      "description": "Strelitzia are known for their lush, tropical foliage. They make stunning architectural plants, due to their tall erect stems and wide, banana-like, paddle shaped leaves."
+    },
+    {
+      "id": 6,
+      "name": "Bonsai",
+      "stock": 2,
+      "price": 119.99,
+      "shortDesc": "Native to the tropics of India and Polynesia, Ming aralia is an interesting and exotic houseplant that is technically an evergreen shrub.",
+      "description": "Native to the tropics of India and Polynesia, Ming aralia is an interesting and exotic houseplant that is technically an evergreen shrub. While it is a bit more temperamental to grow than your average plant, it's well worth the effort for its fluffy, bright green foliage."
+    },
+    {
+      "id": 7,
+      "name": "Corn Plant",
+      "stock": 10,
+      "price": 19.99,
+      "shortDesc": "Calathea Cora is lush variegation at its tropical best. Large dark green striped leaves and borders contrast with paler centres that are occasionally flushed with a pale shade of pink.",
+      "description": "Calathea Cora is lush variegation at its tropical best. Large dark green striped leaves and borders contrast with paler centres that are occasionally flushed with a pale shade of pink. In classic Calathea style the backs of the leaves are a dark red-purple. A houseplant with true jungle boogie credentials."
+    },
+    {
+      "id": 8,
+      "name": "Fiddle Leaf Fig",
+      "stock": 5,
+      "price": 49.99,
+      "shortDesc": "Also known as ficus lyrata. Ficus lyrata are perfect for adding some serious, air-cleansing, greenery to your indoor living space.",
+      "description": "Ficus Lyrata has huge, glossy, fiddle-shaped leaves with prominent veins. If you are looking for a Ficus with a difference, this one packs a punch with it's amazing flamboyant foliage."
+    },
+    {
+      "id": 9,
+      "name": "Majesty Palm",
+      "stock": 10,
+      "price": 39.99,
+      "shortDesc": "Majesty palm is an indoor tree with long arching green fronds atop multiple stems.",
+      "description": "Majesty palm (Ravenea rivularis) is an indoor tree with long arching green fronds atop multiple stems. It is usually grown as a large houseplant, though it can reach heights of up to 90 feet in its native outdoor environment."
+    },
+    {
+      "id": 10,
+      "name": "Monstera",
+      "stock": 12,
+      "price": 69.99,
+      "shortDesc": "The hydroculture version of the Swiss Cheese Plant is an update on a 70's cult classic, its retro-chic appeal makes it just as popular today and rightly so.",
+      "description": "The hydroculture version of the Swiss Cheese Plant is an update on a 70's cult classic, its retro-chic appeal makes it just as popular today and rightly so. Its large, glossy, heart shaped, leaves add fantastic impact with their perforations and lobes, which develop as the leaf matures."
+    },
+    {
+      "id": 11,
+      "name": "Philodendron Verrucosum",
+      "stock": 5,
+      "price": 99.99,
+      "shortDesc": "Philodendron verrucosum is a colorful Philodendron with velvety leaves.",
+      "description": "Philodendron verrucosum is a colorful Philodendron with velvety leaves. It is a hemiepiphyte that starts its life as a seed growing in the canopy of trees and  is eventually reaching the soil with its roots."
+    },
+    {
+      "id": 12,
+      "name": "Rattle Snake Plant",
+      "stock": 8,
+      "price": 29.99,
+      "shortDesc": "Calathea lancifolia is a wonderfully showy houseplant. It has upright, lance-shaped leaves with long wavy edges that form in clumps, spreading slowly over time.",
+      "description": "Calathea lancifolia is a wonderfully showy houseplant. It has upright, lance-shaped leaves with long wavy edges that form in clumps, spreading slowly over time. The leaves are variegated with dark green strokes on a pale green background. The undersides are a burgundy red and velvety to the touch. The Rattlesnake plant is also sometimes known as Calathea insignis."
+    },
+    {
+      "id": 13,
+      "name": "Rubber Plant",
+      "stock": 15,
+      "price": 24.99,
+      "shortDesc": "Rubber Plants are quintessential houseplants, popular for decades and quite rightly still on trend today.",
+      "description": "Rubber Plants are quintessential houseplants, popular for decades and quite rightly still on trend today. They are easy to care for and make a sculptural statement in the right location. Ficus elastica Melany’s luscious foliage is a deep, glossy green with a glamorous hint of burgundy. The dense, compact growth habit results in more air-filtering leaves."
+    },
+    {
+      "id": 14,
+      "name": "Snake Plant",
+      "stock": 10,
+      "price": 19.99,
+      "shortDesc": "Snake plant also known as sansevieria zeylanica is a tough, hardy snake plant. The long sword-like leaves are dark green with wavy lighter green bands.",
+      "description": "Sansevieria zeylanica are not as common as Sansevieria trifasciata, but they are just as bullet-proof and just as stunning. Easy care, shade loving, hard to kill, air-purifying... these beautiful plants have it all."
+    },
+    {
+      "id": 15,
+      "name": "String of Hearts",
+      "stock": 10,
+      "price": 19.99,
+      "shortDesc": "Also known as Rosary Vine or Chain of Hearts, Ceropegia woodii is not truly a succulent, but it does store water in its stems and plant care is very similar to that of a succulent.",
+      "description": "Also known as Rosary Vine or Chain of Hearts, Ceropegia woodii is not truly a succulent, but it does store water in its stems and plant care is very similar to that of a succulent. String of Hearts is extremely easy to look after and very tolerant of neglect. It is a perfect plant for for hanging baskets."
+    },
+    {
+      "id": 16,
+      "name": "ZZ",
+      "stock": 5,
+      "price": 24.99,
+      "shortDesc": "The ZZ Plant, or Zanzibar Gem, is an extremely popular and hip house plant. It's nonchalant care requirements make it a great choice for forgetful houseplant owners.",
+      "description": "The ZZ Plant, or Zanzibar Gem, is an extremely popular and hip house plant. It's nonchalant care requirements make it a great choice for forgetful houseplant owners; whereas it's stunning and unique foliage give it eye-catching appeal."
+    }
+  ]
+}
