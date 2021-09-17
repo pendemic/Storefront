@@ -98,7 +98,7 @@ export default class App extends Component {
   }
   login = async (email, password) => {
     const res = await axios.post(
-      'http://localhost:3001/login',
+      'https://my-json-server.typicode.com/pendemic/storefrontdb/users',
       { email, password },
     ).catch((res) => {
       return { status: 401, message: 'Unauthorized' }
@@ -129,7 +129,7 @@ export default class App extends Component {
   async componentDidMount() {
     let user = localStorage.getItem("user");
     let cart = localStorage.getItem("cart");
-    const products = await axios.get('http://localhost:3001/products');
+    const products = await axios.get('https://my-json-server.typicode.com/pendemic/storefrontdb/products');
     user = user ? JSON.parse(user) : null;
     cart = cart ? JSON.parse(cart) : {};
     this.setState({ user,  products: products.data, cart });
@@ -175,7 +175,7 @@ export default class App extends Component {
         p.stock = p.stock - cart[p.name]. amount;
 
         axios.put(
-          `http://localhost:3001/products/${p.id}`, {...p},
+          `https://my-json-server.typicode.com/pendemic/storefrontdb/products/${p.id}`, {...p},
         )
       }
       return p;
