@@ -20,10 +20,10 @@ class Home extends Component{
                       infiniteLoop={true}
                       showThumbs={false}>
                       <div>
-                          <img src="./img/c1.PNG" />
+                          <img src="./img/c1.png" />
                       </div>
                       <div>
-                          <img src="./img/c2.PNG" />
+                          <img src="./img/c2.png" />
                       </div>
                   </Carousel>
                   <div className="columns is-mobile my-6">

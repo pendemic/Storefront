@@ -8,7 +8,7 @@ const ProductItem = props => {
         <div className="tile is-child notification is-white">
             <figure className="image is-4by5">
               <img
-                src={`./img/${product.name}.JPG`}
+                src={`./img/${product.name}.jpg`}
                 alt={product.shortDesc}
               />
             </figure>
