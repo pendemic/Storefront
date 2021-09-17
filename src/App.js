@@ -76,7 +76,7 @@ export default class App extends Component {
               </div>
             </nav>
             <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/Storefront" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/cart" component={Cart} />
               <Route exact path="/add-product" component={AddProduct} />
