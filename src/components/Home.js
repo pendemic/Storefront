@@ -45,7 +45,7 @@ class Home extends Component{
           </div>
                   </div>
                   <figure className="product">
-                      <img src="./img/Home-Product.png"></img>
+                      <img src="./img/Home-Product.PNG"></img>
                       <Link to="/products">
                       <button className=" product-btn">Shop Plants</button>
                       </Link>
