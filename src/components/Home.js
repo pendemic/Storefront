@@ -20,10 +20,10 @@ class Home extends Component{
                       infiniteLoop={true}
                       showThumbs={false}>
                       <div>
-                          <img src="../img/c1.PNG" />
+                          <img src="./img/c1.PNG" />
                       </div>
                       <div>
-                          <img src="../img/c2.PNG" />
+                          <img src="./img/c2.PNG" />
                       </div>
                   </Carousel>
                   <div className="columns is-mobile my-6">
@@ -45,7 +45,7 @@ class Home extends Component{
           </div>
                   </div>
                   <figure className="product">
-                      <img src="../img/Home-Product.JPG"></img>
+                      <img src="./img/Home-Product.JPG"></img>
                       <Link to="/products">
                       <button className=" product-btn">Shop Plants</button>
                       </Link>

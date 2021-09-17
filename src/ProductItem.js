@@ -8,7 +8,7 @@ const ProductItem = props => {
         <div className="tile is-child notification is-white">
             <figure className="image is-4by5">
               <img
-                src={`/Storefront/img/${product.name}.JPG`}
+                src={`./img/${product.name}.JPG`}
                 alt={product.shortDesc}
               />
             </figure>
