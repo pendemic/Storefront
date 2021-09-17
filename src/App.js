@@ -39,7 +39,7 @@ export default class App extends Component {
               className="navbar-brand"
               >
                 {/* <Link to='/' className="navbar-item is-size-4 has-text-weight-bold">Cactus Club</Link> */}
-                <a href="/">
+                <a href="/Storefront">
                   <img className="logo" src="./img/Logo.PNG"></img>
                   </a>
                 <label

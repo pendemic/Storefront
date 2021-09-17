@@ -8,7 +8,7 @@ const ProductList = props => {
   return (
     <>
       <div>
-          <img src="./img/Products.PNG">
+          <img src="../img/Products.PNG">
           </img>
         
       </div>
