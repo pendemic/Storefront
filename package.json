@@ -1,6 +1,8 @@
 {
   "name": "e-commerce",
   "version": "0.1.0",
+  "main": "server.js",
+  "author": "Mikeo Skinner",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
