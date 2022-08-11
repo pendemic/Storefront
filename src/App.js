@@ -10,7 +10,7 @@ import Context from "./Context";
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 import "./Style.css";
-
+import TagManager from 'react-gtm-module';
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -20,6 +20,11 @@ export default class App extends Component {
       products: []
     };
     this.routerRef = React.createRef();
+
+    const tagManagerArgs = {
+      gtmId: process.env.REACT_APP_GTM_ID
+    }
+    TagManager.initialize(tagManagerArgs)
   }
   render() {
     return (
