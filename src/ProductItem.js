@@ -25,7 +25,7 @@ const ProductItem = props => {
             )}
             <div className="is-clearfix">
               <button
-                className="button is-small has-background-success-light"
+                className="button is-small has-background-success-light gtmAdd"
                 onClick={() =>
                   props.addToCart({
                     id: product.name,
