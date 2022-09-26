@@ -1,7 +1,11 @@
 import React from "react";
-
+import TagManager from 'react-gtm-module';
 const ProductItem = props => {
   const { product } = props;
+  const tagManagerArgs = {
+    gtmId: process.env.REACT_APP_GTM_ID
+  }
+  TagManager.initialize(tagManagerArgs)
   return (
     <div className=" column is-one-quarter">
       <div className="tile is-parent">
