@@ -17,7 +17,7 @@ export default class App extends Component {
     this.state = {
       user: null,
       cart: {},
-      products: []
+      products: [],
     };
     this.routerRef = React.createRef();
 
@@ -44,7 +44,7 @@ export default class App extends Component {
               className="navbar-brand"
               >
                 {/* <Link to='/' className="navbar-item is-size-4 has-text-weight-bold">Cactus Club</Link> */}
-                <a href="/Storefront">
+                <a href="/">
                   <img className="logo" src="./img/Logo.PNG"></img>
                   </a>
                 <label
@@ -81,7 +81,7 @@ export default class App extends Component {
               </div>
             </nav>
             <Switch>
-            <Route exact path="/Storefront" component={Home} />
+            <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/cart" component={Cart} />
               <Route exact path="/add-product" component={AddProduct} />
@@ -169,19 +169,30 @@ export default class App extends Component {
     this.setState({cart});
   };
   checkout = () => {
-    if(!this.state.user){
-      this.routerRef.current.history.push("/login");
-      return;
+    // if(!this.state.user){
+    //   this.routerRef.current.history.push("/login");
+    //   return;
 
-    }
+    // }
+    var cartTotal = 0;
+    var cartItems = 0;
     const cart = this.state.cart;
     const products = this.state.products.map(p => {
       if (cart[p.name]){
         p.stock = p.stock - cart[p.name]. amount;
-
+        cartTotal += p.price;
+        cartItems += 1;
         axios.put(
           `https://my-json-server.typicode.com/pendemic/storefrontdb/products/${p.id}`, {...p},
         )
+        const data = {
+          event: "Checkout",
+          total:{
+            cartTotal: cartTotal,
+            cartItems: cartItems
+          }
+        };
+        TagManager.dataLayer(data);
       }
       return p;
     });

@@ -34,7 +34,7 @@ const Cart = props => {
                   Clear cart
                 </button>{" "}
                 <button
-                  className="button is-success"
+                  className="button is-success gtmCart"
                   onClick={props.context.checkout}
                 >
                   Checkout
