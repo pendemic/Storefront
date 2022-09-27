@@ -22,7 +22,10 @@ export default class App extends Component {
     this.routerRef = React.createRef();
 
     const tagManagerArgs = {
-      gtmId: process.env.REACT_APP_GTM_ID
+      gtmId: process.env.REACT_APP_GTM_ID,
+      events:{
+        Checkout: "Checkout"
+      }
     }
     TagManager.initialize(tagManagerArgs)
   }
@@ -185,14 +188,13 @@ export default class App extends Component {
         axios.put(
           `https://my-json-server.typicode.com/pendemic/storefrontdb/products/${p.id}`, {...p},
         )
-        const data = {
-          event: "Checkout",
-          total:{
+        TagManager.dataLayer({
+          dataLayer:{
+            event: "Checkout",
             cartTotal: cartTotal,
             cartItems: cartItems
           }
-        };
-        TagManager.dataLayer(data);
+        });
       }
       return p;
     });
